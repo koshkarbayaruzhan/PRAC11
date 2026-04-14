@@ -1,4 +1,6 @@
-package model.people;
+package university.model.people;
 
-public class User {
+public abstract class User {
+    protected String name;
+    protected String email;
 }
